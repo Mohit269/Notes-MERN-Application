@@ -13,7 +13,9 @@ export default function Header() {
     <div>
       <Navbar bg="light" expand="lg" style={{ borderRadius: "10px" }}>
         <Container fluid>
-          <Navbar.Brand href="/">Notes</Navbar.Brand>
+          <Navbar.Brand href="/" className="ml-3">
+            Notes
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -28,7 +30,7 @@ export default function Header() {
                   className="me-2"
                   aria-label="Search"
                 />
-                <Button variant="success">Search</Button>
+                <Button variant="dark">Search</Button>
               </Form>
               <Nav.Link href="/">MyNotes</Nav.Link>
               <NavDropdown title="MyProfile" id="navbarScrollingDropdown">
