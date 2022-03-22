@@ -13,7 +13,10 @@ export default function Header() {
     <div>
       <Navbar bg="light" expand="lg" style={{ borderRadius: "10px" }}>
         <Container fluid>
-          <Navbar.Brand href="/" className="ml-3">
+          <Navbar.Brand
+            href="/"
+            style={{ marginRight: "30%", textSixe: "60px" }}
+          >
             Notes
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />

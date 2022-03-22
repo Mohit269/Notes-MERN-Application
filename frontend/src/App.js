@@ -4,6 +4,8 @@ import Header from "./Components/Header/Header";
 import "./bootstrap.min.css";
 import LandingPage from "./Components/LandingPage/LandingPage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Login from "./Components/LandingPage/Login";
+import Register from "./Components/LandingPage/Register";
 function App() {
   return (
     <>
@@ -12,8 +14,8 @@ function App() {
         <Footer1 />
         <Routes>
           <Route path="/" element={<LandingPage />}></Route>
-          <Route path="/register" element={<LandingPage />}></Route>
-          <Route path="/login" element={<LandingPage />}></Route>
+          <Route path="/register" element={<Register />}></Route>
+          <Route path="/login" element={<Login />}></Route>
         </Routes>
       </BrowserRouter>
     </>

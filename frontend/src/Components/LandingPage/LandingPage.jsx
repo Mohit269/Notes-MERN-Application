@@ -15,18 +15,14 @@ export default function LandingPage() {
       <h4>Simple way to Keep your Notes Safe at one Place</h4>
       <Row>
         <Col>
-          <Button variant="dark">
-            <a href="/login" style={{ textDecoration: "none" }}>
-              LOGIN
-            </a>
-          </Button>
+          <a href="/login" style={{ textDecoration: "none" }}>
+            <Button variant="dark">LOGIN</Button>
+          </a>
         </Col>
         <Col>
-          <Button variant="dark">
-            <a href="/register" style={{ textDecoration: "none" }}>
-              REGISTER
-            </a>
-          </Button>
+          <a href="/register" style={{ textDecoration: "none" }}>
+            <Button variant="dark">REGISTER</Button>
+          </a>
         </Col>
       </Row>
     </div>
